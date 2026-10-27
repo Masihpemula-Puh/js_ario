@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Website Ario</title>
+    <style>
+        body {
+            font-family: 'Times New Roman', Times, serif;
+            margin: 0;
+            background-color: #f4f7fb;
+            color: #333;
+        }
+
+        nav {
+            background-color: #2563eb;
+            padding: 20px;
+            text-align: center;
+        }
+
+        nav a {
+            color: white;
+            text-decoration: none;
+            margin: 0 15px;
+            font-weight: bolder;
+        }
+
+        nav a:hover {
+            color: #bfdbfe;
+        }
+
+        .container {
+            width: 80%;
+            margin: 50px auto;
+            padding: 30px;
+            background-color: white;
+            text-align: center;
+        }
+
+        h1 {
+            color: #2563eb;
+        }
+
+        p {
+            line-height: 1.2;
+        }
+    </style>
+</head>
+<body>
+
+    <nav>
+        <a href="index.html">Home</a>
+        <a href="about.html">About</a>
+        <a href="contact.html">Contact</a>
+    </nav>
+
+    <div class="container home">
+        <h1>Selamat Datang</h1>
+
+        <p id="teks">Selamat datang di website saya.</p>
+        <p>Ini adalah halaman Home.</p>
+
+        <button onclick="sapa()">Klik Saya</button>
+        <button onclick="ubahTeks()">Ubah Teks</button>
+        <button onclick="ubahWarna()">Ubah Warna</button>
+
+        <p id="tanggal"></p>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
